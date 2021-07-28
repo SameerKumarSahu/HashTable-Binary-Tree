@@ -8,7 +8,8 @@ public class Hashmap {
 		
 		
 		HashMap<String, Integer> map = new HashMap<String, Integer>();
-		String sentence = "to be or not to be";
+		String sentence = "Paranoids are not paranoid because they are paranoid but because they keep "
+				+ "putting themselves deliberately into paranoid avoidable situations";
 		System.out.println("The given sentence is -->"+sentence);
 		String[] word = sentence.split(" "); 
 		int size = word.length;
@@ -25,7 +26,7 @@ public class Hashmap {
 			}
 			i++;
 		}
-		System.out.println(map);
+		System.out.println("Frequency of words are \n"+map);
 
 	}
 
